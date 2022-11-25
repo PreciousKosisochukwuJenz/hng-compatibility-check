@@ -1,7 +1,22 @@
 [
   {
-    "question": "",
-    "options": ["", "", "", ""],
-    "answer": ""
+    "question": "What do you enjoy?",
+    "options": ["Going on walks?", "Going to cinema?", "Playing chess?"]
+  },
+  {
+    "question": "Which is your favorite place to shop?",
+    "options": ["Trade fare", "Starbucks", "Spar"]
+  },
+  {
+    "question": "Which is your favorite?",
+    "options": ["Date night", "Movie night", "Dinner in bed"]
+  },
+  {
+    "question": "Favoite superhero?",
+    "options": ["Captain America", "Hulk", "Iron man"]
+  },
+  {
+    "question": "Who is your greatest comedian of all time?",
+    "options": ["Chris Rock", "Martin Lawerence", "Dave Chapelle"]
   }
 ]

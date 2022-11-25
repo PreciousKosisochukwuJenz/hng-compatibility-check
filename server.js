@@ -6,6 +6,7 @@ const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
 // const swaggerDocument = require("./swagger.json");
 const authRoutes = require("./src/routes/auth.route");
+const userRoutes = require("./src/routes/user.route");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
@@ -39,6 +40,7 @@ app.get("/ping", (req, res) => {
 });
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/auth", authRoutes);
+app.use("/user", userRoutes);
 
 // On  server error
 app.on("error", (error) => {
