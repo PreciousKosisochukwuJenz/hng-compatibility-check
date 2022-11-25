@@ -10,7 +10,7 @@ class Matcher {
       email: body.email,
     });
 
-    const invitation = inivation.save();
+    const invitation = invitationModel.save();
 
     const subject = "HNG compatibality checker invitation";
     const content = `Hey, you have been invited for a compatibility check by ${this.user.fullname}`;

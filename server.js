@@ -36,7 +36,7 @@ try {
 
 // Routes
 app.get("/ping", (req, res) => {
-  res.send({ mssg: "pong!" });
+  res.send({ msg: "pong!" });
 });
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/auth", authRoutes);

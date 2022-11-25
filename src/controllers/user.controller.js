@@ -1,4 +1,4 @@
-const MatchServ = require("../services/match.service");
+const MatchServ = require("../services/matcher.service");
 const response = require("../utils/response");
 
 class AuthContoller {
