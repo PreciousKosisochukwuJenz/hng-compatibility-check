@@ -2,8 +2,8 @@ const { google } = require("googleapis");
 const axios = require("axios");
 
 // Define Urls
-const BaseUrl = "https://";
-const redirectURLs = `${BaseUrl}/api/auth/google-signin`;
+const BaseUrl = "https://https://hng-compatibility-check.herokuapp.com";
+const redirectURLs = `${BaseUrl}/auth/google-auth`;
 
 class GoogleAuthentionService {
   googleConnection() {
